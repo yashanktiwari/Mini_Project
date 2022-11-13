@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-navbar {
+  position: fixed;
+  background-color: darkcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.profile-page-body {
+  padding: 2.75rem 0px 0px 0px;
+}
+
+.header-navbar-heading {
+  color: white;
+  font-weight: bolder;
+  position: sticky;
+}
+
+.navbar-bottom {
+  margin: 0px 15rem 0px !important;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: darkcyan !important;
+  height: 3.75rem;
+}
+
+.bottom-navbar-icon {
+  color: white;
+}
+
+.col-1 {
+  height: 94vh;
+}
+
+.left-empty-space {
+  background-image: linear-gradient(to left, rgb(198, 232, 232), white);
+}
+
+.right-empty-space {
+  background-image: linear-gradient(to right, rgb(198, 232, 232), white);
+}
+
+
+.profile-page-left-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-page-left-uppersection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-page-user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-page-image {
+  border-radius: 25%;
+  border: 2px solid lightgray;
+}
+
+.profile-page-username {
+  font-weight: bolder;
+}
+
+.profile-page-user-followers {
+  color: darkgray;
+}
+
+.profile-page-user-following {
+  color: darkgray;
+}
+
+.profile-page-user-description-div {
+  max-width: 40vw;
+  margin: 0px 2rem 0px;
+}
+
+.profile-page-user-description {
+  color: rgb(119, 118, 118)
+}
+
+.profile-page-navigation-section-div {
+  padding: 1rem;
+  margin: 2rem;
+  border: 2px solid lightgray;
+  height: max-content;
+  max-height: 42vh;
+  border-radius: 0.5rem;
+}
+
+.profile-page-right-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-page-vertical-line {
+  height: 75vh;
+  margin-top: 2.75rem;
+  margin-bottom: 4rem;
+  border: 1px solid gray;
+}
+
+.profile-page-right-section-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.profile-page-right-section-heading {
+  font-weight: bolder;
+}
+
+.profile-page-right-section-interests-heading {
+  font-weight: bolder;
+}
+
+.hr1 {
+  margin: 0.5rem 0px 0.5rem;
+  border: 0.1rem solid lightgray;
+}
+
+.hr2 {
+  margin: 0.5rem 0px 0.5rem;
+  border: 0.1rem solid lightgray;
+}
+
+.description-text {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+/* .profile-page-navigation-section-div {
+  overflow: hidden;
+  overflow-y: scroll;
+} */
+
+/* Responsiveness to the website */
+@media screen and (min-width: 950px) {
+  .header-navbar {
+    height: 3.75rem;
+  }
+  .navbar {
+    height: 3.75rem;
+  }
+  .navbar-bottom {
+    margin: 0px 15rem 0px !important;
+  }
+  .profile-page-image {
+    height: 19vh;
+    width: 10vw;
+  }
+  .header-navbar-heading {
+    font-size: 1.75rem;
+  }
+  .bottom-navbar-icon {
+    font-size: 1.5rem;
+  }
+  .profile-page-image-div {
+    margin: 2rem;
+  }
+  .profile-page-username {
+    font-size: 1.5rem;
+  }
+  .profile-page-user-followers {
+    font-size: 1rem;
+  }
+  .profile-page-user-following {
+    font-size: 1rem;
+  }
+  .tab-content {
+    /* margin: 2rem 0px 0px 0px; */
+    padding: 1rem;
+  }
+  .profile-page-right-section-heading {
+    font-size: 1.25rem;
+  }
+  .profile-page-right-section-interests-heading {
+    font-size: 1.25rem;
+  }
+  .profile-page-right-section-heading-div {
+    margin: 3rem -1rem 0px 2rem;
+  }
+  .profile-page-right-section-interests-heading-div {
+    margin: 5rem -1rem 0px 2rem;
+  }
+  .profile-page-right-section-list {
+    font-size: 1rem;
+  }
+  .description-text {
+    font-size: 1.1rem;
+    max-height: 11rem;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 950px) {
+  .header-navbar {
+    height: 3.55rem;
+  }
+  .navbar {
+    height: 3.55rem;
+  }
+  .navbar-bottom {
+    margin: 0px 10rem 0px !important;
+  }
+  .profile-page-image {
+    height: 16vh;
+    width: 10vw;
+  }
+  .header-navbar-heading {
+    font-size: 1.5rem;
+  }
+  .bottom-navbar-icon {
+    font-size: 1.35rem;
+  }
+  .profile-page-image-div {
+    margin: 1.5rem;
+  }
+  .profile-page-username {
+    font-size: 1.1rem;
+  }
+  .profile-page-user-followers {
+    font-size: 0.8rem;
+  }
+  .profile-page-user-following {
+    font-size: 0.8rem;
+  }
+  .tab-content {
+    padding: 0.9rem;
+  }
+  .profile-page-right-section-heading-div {
+    margin: 2.5rem -0.75rem 0px 1.5rem;
+  }
+  .profile-page-right-section-interests-heading-div {
+    margin: 4.5rem -0.75rem 0px 1.5rem;
+  }
+  .profile-page-right-section-list {
+    font-size: 0.8rem;
+  }
+  .description-text {
+    font-size: 0.85rem;
+    max-height: 9rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header-navbar {
+    height: 3.25rem;
+  }
+  .navbar {
+    height: 3.25rem;
+  }
+  .navbar-bottom {
+    margin: 0px 5rem 0px !important;
+  }
+  .profile-page-image {
+    height: 14vh;
+    width: 10vw;
+  }
+  .header-navbar-heading {
+    font-size: 1.25rem;
+  }
+  .bottom-navbar-icon {
+    font-size: 1.25rem;
+  }
+  .profile-page-image-div {
+    margin: 1rem;
+    margin-top: 1.5rem;
+  }
+  .profile-page-username {
+    font-size: 0.8rem;
+  }.profile-page-user-followers {
+    font-size: 0.6rem;
+  }
+  .profile-page-user-following {
+    font-size: 0.6rem;
+  }
+  .tab-content {
+    padding: 0.8rem;
+  }
+  .profile-page-right-section-heading {
+    font-size: 1.05rem;
+  }
+  .profile-page-right-section-interests-heading {
+    font-size: 1.05rem;
+  }
+  .profile-page-right-section-heading-div {
+    margin: 2rem -0.5rem 0px 1rem;
+  }
+  .profile-page-right-section-interests-heading-div {
+    margin: 4rem -0.5rem 0px 1rem;
+  }
+  .profile-page-right-section-list {
+    font-size: 0.7rem;
+  }
+  .description-text {
+    font-size: 0.7rem;
+    max-height: 7rem;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .header-navbar {
+    height: 3.05rem;
+  }
+  .navbar {
+    height: 3.05rem;
+  }
+  .navbar-bottom {
+    margin: 0px 1rem 0px !important;
+  }
+  .profile-page-image {
+    height: 12vh;
+    width: 10vw;
+  }
+  .header-navbar-heading {
+    font-size: 1rem;
+  }
+  .bottom-navbar-icon {
+    font-size: 1.1rem;
+  }
+  .profile-page-image-div {
+    margin: 0.5rem;
+    margin-top: 1.5rem !important;
+  }
+  .profile-page-username {
+    font-size: 0.75rem;
+  }
+  .profile-page-user-followers {
+    font-size: 0.6rem;
+  }
+  .profile-page-user-following {
+    font-size: 0.6rem;
+  }
+  .tab-content {
+    padding: 0.7rem;
+  }
+  .profile-page-right-section-heading {
+    font-size: 0.95rem;
+  }
+  .profile-page-right-section-interests-heading {
+    font-size: 0.95rem;
+  }
+  .profile-page-right-section-heading-div {
+    margin: 1.5rem -0.25rem 0px 0.5rem;
+  }
+  .profile-page-right-section-interests-heading-div {
+    margin: 3.5rem -0.25rem 0px 0.5rem;
+  }
+  .profile-page-right-section-list {
+    font-size: 0.5rem;
+  }
+  .description-text {
+    font-size: 0.5rem;
+    max-height: 5rem;
+  }
+}
+
+@media screen and (max-height: 750) {
+  .description-text {
+    max-height: 100px;
+  }
+}
