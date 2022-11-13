@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="profile_page.css">
+  <title>Profile Page</title>
+</head>
+<body>
+
+  <header>
+    <div class="header-navbar">
+      <span class="header-navbar-heading">Micro Functional Blogging Website</span>
+    </div>
+  </header>
+
+  <div class="container body">
+    <div class="row profile-page-body">
+      <!-- Empty Space Left -->
+      <div class="col-1 left-empty-space"></div>
+      <!-- Left Section Starts -->
+      <div class="col-6 left-section">
+        <div class="profile-page-left-section">
+          <div class="profile-page-left-uppersection">
+            <div class="profile-page-image-div">
+              <img src="profile_image.jpg" class="profile-page-image">
+            </div>
+            <div class="profile-page-user-details">
+              <div class="profile-page-username-div">
+                <span class="profile-page-username"> Yashank Tiwari</span>
+              </div>
+              <div class="profile-page-user-followers-div">
+                <span class="profile-page-user-followers">0 Followers</span>
+              </div>
+              <div class="profile-page-user-following-div">
+                <span class="profile-page-user-following">0 Following</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile-page-left-lowersection">
+            <div class="profile-page-user-description-div">
+              <span class="profile-page-user-description description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat deleniti facilis corporis reiciendis, nihil quos rem mollitia at, neque quia, dolores magnam magni consequuntur nam!</span>
+            </div>
+
+            <div class="profile-page-navigation-section-div">
+              
+              <nav>
+                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-myposts-tab" data-bs-toggle="tab" data-bs-target="#nav-myposts" type="button" role="tab" aria-controls="nav-myposts" aria-selected="true">Posts</button>
+                  <button class="nav-link" id="nav-follow-request-tab" data-bs-toggle="tab" data-bs-target="#nav-follow-request" type="button" role="tab" aria-controls="nav-follow-request" aria-selected="false">Follow Requests</button>
+                  <button class="nav-link" id="nav-myfollowers-tab" data-bs-toggle="tab" data-bs-target="#nav-myfollowers" type="button" role="tab" aria-controls="nav-myfollowers" aria-selected="false">Followers</button>
+                  <button class="nav-link" id="nav-myfollowing-tab" data-bs-toggle="tab" data-bs-target="#nav-myfollowing" type="button" role="tab" aria-controls="nav-myfollowing" aria-selected="false">Following</button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-myposts" role="tabpanel" aria-labelledby="nav-myposts-tab" tabindex="0">
+                  <div class="description-text">
+                    0 Posts
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="nav-follow-request" role="tabpanel" aria-labelledby="nav-follow-request-tab" tabindex="0">
+                  <div class="description-text">
+                    Currently, you do not have any follow requests.
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="nav-myfollowers" role="tabpanel" aria-labelledby="nav-myfollowers-tab" tabindex="0">
+                  <div class="description-text">
+                    Sorry, you have 0 followers.
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="nav-myfollowing" role="tabpanel" aria-labelledby="nav-myfollowing-tab" tabindex="0">
+                  <div class="description-text">
+                    You are currently not following anyone.
+                  </div>
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Left Section Ends -->
+      <!-- Right Section Start -->
+      <div class="col-4 profile-page-right-section">
+        <div class="profile-page-vertical-line"></div>
+        <div class="profile-page-right-section-details">
+          <div class="profile-page-right-section-heading-div">
+            <span class="profile-page-right-section-heading">Highlights</span>
+          </div>
+          <div class="hr1"></div>
+          <div class="profile-page-right-section-info-list">
+            <ul>
+              <li class="profile-page-right-section-list">Gender: Male</li>
+              <li class="profile-page-right-section-list">Educational Details</li>
+              <li class="profile-page-right-section-list">Date Joined: 10th November 2022</li>
+            </ul>
+          </div>
+          <div class="profile-page-right-section-interests-heading-div">
+            <span class="profile-page-right-section-interests-heading">User Interests</span>
+          </div>
+          <div class="hr2"></div>
+          <div class="profile-page-right-section-interests-list">
+            <ul>
+              <li class="profile-page-right-section-list">India</li>
+              <li class="profile-page-right-section-list">Technology</li>
+              <li class="profile-page-right-section-list">Entertainment</li>
+              <li class="profile-page-right-section-list">Health</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Right Section Ends -->
+      <!-- Empty Space Right -->
+      <div class="col-1 right-empty-space"></div>
+    </div>
+  </div>
+
+  
+  <nav class="navbar fixed-bottom bg-light">
+    <div class="container navbar-bottom">
+      <a class="navbar-brand bottom-navbar-icon" href="#">
+        <i class="fa-solid fa-house"></i>
+      </a>
+      <a class="navbar-brand bottom-navbar-icon" href="#">
+        <i class="fa-solid fa-bell"></i>
+      </a>
+      <a class="navbar-brand bottom-navbar-icon" href="#">
+        <i class="fa-solid fa-user"></i>
+      </a>
+      <a class="navbar-brand bottom-navbar-icon" href="#">
+        <i class="fa-solid fa-gear"></i>
+      </a>
+    </div>
+  </nav>
+</body>
+</html>
